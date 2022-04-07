@@ -1,0 +1,75 @@
+.MainSidebar {
+    color: aliceblue;
+}
+
+.Sidebar {
+    list-style-type: none;
+    text-align: left;
+    overflow-y: hidden;
+}
+
+.Sidebar:hover {
+    overflow-y: scroll;
+}
+
+.Sidebar::-webkit-scrollbar {
+    background-color: #222222;
+    width: 5px;
+}
+
+.Sidebar-li {
+    margin-top: 5mm;
+}
+
+.Sidebar-li:hover {
+    margin-top: 3mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: .5mm;
+    padding-right: .5mm;
+    background-color: #202020;
+    border-radius: .5mm;
+}
+
+.Sidebar-li-active {
+    margin-top: 3mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: .5mm;
+    padding-right: .5mm;
+    background-color: #888888;
+    border-radius: .5mm;
+}
+
+.Sidebar-li-active:hover {
+    margin-top: 3mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: .5mm;
+    padding-right: .5mm;
+    background-color: #676767;
+    border-radius: .5mm;
+}
+
+.SidebarElement {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Sidebar-li:hover > .SidebarElement {
+    color: #bababa;
+
+}
+
+.RoomSidebar {
+    height: 83vh;
+}
+
+.MembersSidebar {
+    height: 83vh;
+}
+
+.MainSidebar {
+    height: 90vh;
+}
+

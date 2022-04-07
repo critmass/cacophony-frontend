@@ -1,0 +1,14 @@
+.IconImage.MembershipProfileScreen-IconImage {
+    height: 5cm;
+    width: 5cm;
+}
+
+.MembershipProfileScreen {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.MembershipProfileScreen-title {
+    font-weight: bolder;
+    margin-right: 1vh;
+}

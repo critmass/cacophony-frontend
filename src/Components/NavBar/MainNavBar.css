@@ -1,0 +1,26 @@
+nav {
+  background-color: #303030;
+  text-align: right;
+  justify-content: right;
+  height: 8vh;
+}
+
+.MainNavBar-link {
+  width: 100px;
+  margin-left: 10mm;
+  text-align: center;
+  color: #f0f2f5;
+  text-decoration: none;
+}
+
+.MainNavBar-link.active {
+  color: #f0f2f5;
+  font-weight: bold;
+  border-bottom: 5px dotted;
+  box-sizing: border-box;
+}
+
+.MainNavBar-link:hover {
+  color: #a5a5a5 !important;
+}
+
